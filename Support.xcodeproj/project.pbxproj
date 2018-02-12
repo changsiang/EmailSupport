@@ -12,6 +12,7 @@
 		CD8B0EEB2031F852004391C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B0EE92031F852004391C7 /* Main.storyboard */; };
 		CD8B0EED2031F852004391C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8B0EEC2031F852004391C7 /* Assets.xcassets */; };
 		CD8B0EF02031F852004391C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B0EEE2031F852004391C7 /* LaunchScreen.storyboard */; };
+		CD8B0EF92031F9C5004391C7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B0EF82031F9C5004391C7 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CD8B0EEC2031F852004391C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD8B0EEF2031F852004391C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8B0EF12031F852004391C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8B0EF82031F9C5004391C7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8B0EF92031F9C5004391C7 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				CD8B0EE42031F852004391C7 /* Support */,
 				CD8B0EE32031F852004391C7 /* Products */,
+				CD8B0EF72031F9C4004391C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				CD8B0EF12031F852004391C7 /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		CD8B0EF72031F9C4004391C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B0EF82031F9C5004391C7 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
